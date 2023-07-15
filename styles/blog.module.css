@@ -1,0 +1,87 @@
+.mainDiv{
+    /* 'w-full px-10 py-6 bg-white rounded-lg shadow-md mt-6' */
+    padding: 6px 10px;
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 5px;
+    margin-top: 10px;
+}
+.likesDiv{
+    display: flex;
+    width: 97px;
+    height: 43px;
+    border-radius: 3px;
+    border: 1px solid grey;
+    padding: 2px;
+    justify-content: space-around;
+    align-items: center;
+    margin-right: 9px;
+}
+.likesIcon{
+    transform: scale(2);
+    color: rgb(91, 140, 247);
+    cursor: pointer; 
+}
+.likesCount{
+    font-size: 1.2rem;
+}
+.goBack{
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+    border-radius: 2px;
+    padding: 8px 16px;
+    background-color: #138496;
+    margin: 10px 0px;
+}
+.titleAndCategory{
+    /* 'flex justify-between items-center mt-4' */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 4px;
+}
+.title{
+    /* 'text-5xl mb-7' */
+    font-size: clamp(1rem, 7vmin, 2rem);
+    margin-bottom: 7px;
+}
+.coverImage{
+    /* 'w-full rounded' */
+    width: 100%;
+    border-radius: 5px;
+}
+.author{
+    /* 'flex justify-between items-center bg-gray-100 p-2 my-8' */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(128, 128, 128, 0.1);
+    padding: 2px;
+    margin: 8px 0px;
+}
+.aboutAndImage{
+    /* 'flex items-center' */
+    display: flex;
+    align-items: center;
+}
+.authorImage{
+    /* 'mx-4 w-10 h-10 object-cover rounded-full hidden sm:block' */
+    margin: 0px 4px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+.date{
+    /* 'mr-4' */
+    margin-right: 4px;
+}
+.blog-text{
+    /* 'blog-text mt-2' */
+    margin-top: 2px;
+}
+
+.linksDiv{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}

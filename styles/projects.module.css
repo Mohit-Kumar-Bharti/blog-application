@@ -1,0 +1,12 @@
+.heading{
+    text-align: center;
+    margin: 2rem;
+    background: #0a3069;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.projectmain{
+    display: flex;
+    flex-wrap: wrap;
+}

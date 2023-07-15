@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;500;600&display=swap');
+*{
+    margin:0;
+    padding: 0;
+    font-family: sans-serif;
+    font-family: Poppins !important;
+}
+body{
+    /* background: linear-gradient(to right, hsl(200,100%,50%), hsl(175,100%,50%)); */
+    /* background-color: #eaeaea; */
+    background-color: #f4f7fd;
+}
+
+.blog-post p {
+  line-height: 1.8;
+  font-weight: 300;  
+}
+.blog-text > .blog-main p{
+  margin: 15px 10px;
+  font-weight: 300;
+} 
+.blog-main img {
+  width: auto;
+  height: auto;
+  max-width: 100%;
+}
+  .blog-text ul,
+  .blog-text ol {
+    font-weight: 300;
+    margin: 7px 2rem;
+    font-family: Poppins;
+  }
+  .blog-text ul li::marker,
+  .blog-text ol li::marker{
+    color: green;
+  }
+  .blog-text ul li ul li::marker{
+    color: red;
+  }
+  .blog-text ul li ul li{
+    font-weight: 300;
+  }
+  .blog-text pre {
+    background: rgb(245, 245, 245);
+    padding: 10px;
+    margin: 10px 0;
+    overflow-x: auto;
+    font-weight: 300;
+    border-left: 3px solid rgb(204, 204, 204);
+  }
+  .blog-text > .blog-main code{
+    background-color: rgb(245, 245, 245);
+    border-radius: 5px;
+    padding: 2px 4px;
+    color: rgba(0, 0, 0, 0.5);
+  }
+  .blog-text > .blog-main pre code{
+    font-weight: 300;
+  }
+  .blog-text h1 {
+    font-family: Poppins;
+    font-size: 28px;
+  }
+  .blog-text a{
+      text-decoration: none;
+      color: blue;
+  }
+  .blog-text h2,
+  .blog-text h3,
+  .blog-text h4 {
+    font-size: 21px;
+  }
+  
+  .blog-main blockquote{
+    border-left: 3px solid green;
+  font-size: 1.2rem;
+  font-weight: 500;
+  font-family: Poppins;
+  border-radius: 3px;
+  }
